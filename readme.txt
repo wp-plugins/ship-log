@@ -2,8 +2,8 @@
 Contributors: blobaugh
 Tags: custom post type, ship log, boat log, management, ship, boat, log
 Requires at least: 3.0
-Tested up to: 3.4.2
-Stable tag: 1.3
+Tested up to: 3.9
+Stable tag: trunk
 
 Create and store profiles on all your ships/boats along with logs of every outing and adventure
 
