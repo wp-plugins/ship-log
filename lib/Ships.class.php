@@ -17,7 +17,7 @@ class BLShips {
             add_action( 'save_post', array( &$this, 'saveShipMeta' ) );
             
             // Setup template for ship
-            add_action( 'template_redirect', array( &$this, 'shipTemplate' ) );
+            // DISABLE UNTIL A GOOD FIX IS FOUND add_action( 'template_redirect', array( &$this, 'shipTemplate' ) );
             
             // Register Ship Log Post Type
             add_action( 'init', array( &$this, 'registerLogPostType' ) );
