@@ -26,19 +26,19 @@ class BLShips {
             add_action( 'save_post', array( &$this, 'saveLogMeta' ) );
             
             // Setup template for log
-            add_action( 'template_redirect', array( &$this, 'logTemplate' ) );
+            //add_action( 'template_redirect', array( &$this, 'logTemplate' ) );
             
             // Validate ship log before allowing a publish
             add_action( 'publish_' . $this->mLogPostType, array( &$this, 'validateLogForPublish') );
             
             // Add CSS and JS files required for the frontend
-            add_action( 'wp_enqueue_scripts', array( &$this, 'frontend_enqueue' ) );
+            //add_action( 'wp_enqueue_scripts', array( &$this, 'frontend_enqueue' ) );
       
     }
     
     public function frontend_enqueue() {
         wp_register_style('ship-log', SHIPS_LOG_PLUGIN_URL.'/css/ship-log.css');
-	wp_enqueue_style('ship-log');
+		wp_enqueue_style('ship-log');
         
     }
     

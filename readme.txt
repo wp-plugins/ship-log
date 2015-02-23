@@ -33,6 +33,9 @@ e.g.
 
 == Changelog ==
 
+= 1.3.3 =
+* Removed unecessary css file loading on every page
+
 = 1.3.2 = 
 * Removed the ship template that broke themes
 * Ensured compatibility with 4.1
